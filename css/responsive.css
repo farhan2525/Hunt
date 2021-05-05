@@ -1,1122 +1,1332 @@
-@media (min-width:320px) and (max-width:575.98px) {
+@media (min-width:320px) and (max-width:575px) {
 
-    /* =======================================
+	/* =======================================
              navabr css start here
  ========================================= */
- .navbar {
-	border-bottom: 0px solid rgba(254, 198, 0.2);
-}
-nav button span i{
-	color: #ddd;
-}
-    nav ul {
-        background: #222;
-        text-align: center;
-    }
+	nav {
+		border-bottom: 0px solid rgba(254, 198, 0.2);
+	}
+	nav button span i {
+		color: #ddd;
+	}
 
-    nav ul li {
-        margin-left: 0;
-    }
+	nav ul {
+		background: #222;
+		text-align: center;
+	}
 
-    .navbar-toggler:focus {
-        background: #fec600;
-        box-shadow: 0 0 0 .25rem transparent;
-    }
+	nav ul li {
+		margin-left: 0;
+	}
 
-    nav ul li:hover::after {
-        width: 0%;
-    }
+	.navbar-toggler:focus {
+		background: #fec600;
+		box-shadow: 0 0 0 .25rem transparent;
+	}
 
-    /* =======================================
+	nav ul li a:hover::after {
+		width: 0%;
+	}
+
+	nav ul li .active::after {
+		width: 0%;
+	}
+
+	/* =======================================
              navabr css end here
  ========================================= */
 
-    /* =======================================
+	/* =======================================
              banner css start here
  ========================================= */
 
-    #banner-part .banner .overlay {
-        padding-top: 130px;
-        padding-bottom: 80px;
-    }
+	#banner-part .banner .overlay {
+		padding-top: 130px;
+		padding-bottom: 80px;
+	}
 
-    #banner-part .banner .overlay h3 {
-        font-size: 30px;
-    }
+	#banner-part .banner .overlay h3 {
+		font-size: 30px;
+	}
 
-    #banner-part .banner .overlay h1 {
-        font-size: 45px;
-    }
+	#banner-part .banner .overlay h1 {
+		font-size: 45px;
+	}
 
-    #banner-part .banner .overlay p {
-        width: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
-    }
+	#banner-part .banner .overlay p {
+		width: auto;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
 
-    #banner-part .banner .overlay a {
-        padding: 15px;
-        font-size: 14px;
-    }
-    #banner-part .slick-dots {
-        position: absolute;
-        left: 50%;
-        bottom: 20px;
-        transform: translateX(-50%);
-    }
-    #banner-part .slick-dots li{
-        display: inline-block;
-        margin: 0 5px;
-    }
-    #banner-part .slick-dots li button {
-        font-size: 0;
-        width: 25px;
-        height: 25px;
-        background: transparent;
-        border: 1px solid #fec600;
-    }
-    #banner-part .slick-dots .slick-active button{
-        background: #fec600;
-    }
-    #banner-bottom-part {
-        width: 0;
-    }
-    /* =======================================
+	#banner-part .banner .overlay a {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	#banner-part .slick-dots {
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+		transform: translateX(-50%);
+	}
+
+	#banner-part .slick-dots li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	#banner-part .slick-dots li button {
+		font-size: 0;
+		width: 25px;
+		height: 25px;
+		background: transparent;
+		border: 1px solid #fec600;
+	}
+
+	#banner-part .slick-dots .slick-active button {
+		background: #fec600;
+	}
+
+	#banner-bottom-part {
+		width: 0;
+	}
+
+	/* =======================================
              banner css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              about css start here
  ========================================= */
 
-#about_part .title p {
-	width: auto;
-}
-#about_part .shape{
-    display: none;
-}
-#about_part i{
-    font-size: 0;
-}
-#about_part .text_one {
-	padding: 20px;
-}
-#about_part .text_one h3 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-#about_part .text_two {
-	padding: 20px;
-	text-align: center;
-	margin-top: 30px;
-}
-#about_part .text_two h3 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-#about_part .text_three {
-	width: 280px;
-	height: 280px;
-	margin: 20px auto;
-}
-#about_part .text_three .img {
-	width: 250px;
-	height: 250px;
-}
-#about_part .text_four {
-	padding: 20px;
-	margin-top: 30px;
-    text-align: center;
-}
-#about_part .text_four h3 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-#about_part .text_five {
-	padding: 20px;
-	margin-top: 30px;
-}
-#about_part .text_five h3{
-    font-size: 16px;
-	margin-bottom: 15px;
-}
-  /* =======================================
+	#about_part .title p {
+		width: auto;
+	}
+
+	#about_part .shape {
+		display: none;
+	}
+
+	#about_part i {
+		font-size: 0;
+	}
+
+	#about_part .text_one {
+		padding: 20px;
+	}
+
+	#about_part .text_one h3 {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	#about_part .text_two {
+		padding: 20px;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	#about_part .text_two h3 {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	#about_part .text_three {
+		width: 280px;
+		height: 280px;
+		margin: 20px auto;
+	}
+
+	#about_part .text_three .img {
+		width: 250px;
+		height: 250px;
+	}
+
+	#about_part .text_four {
+		padding: 20px;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	#about_part .text_four h3 {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	#about_part .text_five {
+		padding: 20px;
+		margin-top: 30px;
+	}
+
+	#about_part .text_five h3 {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	/* =======================================
              about css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              portfolio css start here
  ========================================= */
 
- #portfolio_top {
-	height: 0;
-	margin-bottom: 0;
-}
-#portfolio_part .overlay .item{
-	margin-right: 15px;
-}
-#portfolio_part .slick-slide img {
-	width: 100%;
-}
-#portfolio_part .overlay {
-	padding: 20px 0;
-}
-#portfolio_part .overlay .title p {
-	width: auto;
-}
-#portfolio_part .overlay .item ul li {
-	margin-bottom: 20px;
-}
-#portfolio_bottom {
-	height: 0;
-	margin-top: 0;
-}
- /* =======================================
+	#portfolio_top {
+		height: 0;
+		margin-bottom: 0;
+	}
+
+	#portfolio_part .overlay .item {
+		margin-right: 15px;
+	}
+
+	#portfolio_part .slick-slide img {
+		width: 100%;
+	}
+
+	#portfolio_part .overlay {
+		padding: 20px 0;
+	}
+
+	#portfolio_part .overlay .title p {
+		width: auto;
+	}
+
+	#portfolio_part .overlay .item ul li {
+		margin-bottom: 20px;
+	}
+
+	#portfolio_bottom {
+		height: 0;
+		margin-top: 0;
+	}
+
+	/* =======================================
              portfolio css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              service_part css start here
  ========================================= */
 
- #service_part {
-	padding: 30px 0;
-}
-.title p {
-	width: auto;
-	margin: auto 10px;
-}
-#service_part .chain {
-	height: 0;
-}
-#service_part .service .item {
-	display: block;
-}
-#service_part .service .item:nth-child(2n+1) {
-	display: inline;
-}
-#service_part .service .item .left {
-	width: 100%;
-	display: inline;
-	text-align: center;
-}
-#service_part .service .slick-center .img {
-	transform: scale(1.2);
-	background: #fec600 !important;
-}
-#service_part .service .item .img {
-	width: 60px;
-    height: 60px;
-	background: #eee;
-	border-radius: 50%;
-	margin: 50px auto;
-}
-#service_part .service .item .img img {
-	width: 30px;
-	margin:0 auto;
-}
-#service_part .service .item:nth-child(2n+1) .right {
-	text-align: center;
-}
-#service_part .service .item .right {
-	width: 80%;
-	background: #f1f1f1;
-	padding: 25px 16px;
-    margin: 0 auto;
-}
-#service_part .service .slick-center .right {
-	filter: drop-shadow(0px 0px 8px transparent);
-}
-#service_part .service .item:nth-child(2n+1) .right .shape {
-	width: 25px;
-	height: 25px;
-	top: 0%;
-	left: 50%;
-	transform: rotate(45deg) translateX(-50%);
-}
-#service_part .slick-slider .up {
-	font-size: 25px;
-	top: 20%;
-	left: 80%;
-	transform: translateX(-10%) rotate(90deg);
-}
-#service_part .slick-slider .down {
-	font-size: 25px;
-	bottom: 72%;
-	left: 20%;
-	transform: translateX(-80%) rotate(90deg);
-}
-#service_part .service .item .right .shape {
-	width: 25px;
-	height: 25px;
-	top: 0%;
-	left: 50%;
-	transform: rotate(45deg) translateX(-50%);
-}
- /* =======================================
+	#service_part {
+		padding: 30px 0;
+	}
+
+	.title p {
+		width: auto;
+		margin: auto 10px;
+	}
+
+	#service_part .chain {
+		height: 0;
+	}
+
+	#service_part .service .item {
+		display: block;
+	}
+
+	#service_part .service .item:nth-child(2n+1) {
+		display: inline;
+	}
+
+	#service_part .service .item .left {
+		width: 100%;
+		display: inline;
+		text-align: center;
+	}
+
+	#service_part .service .slick-center .img {
+		transform: scale(1.2);
+		background: #fec600 !important;
+	}
+
+	#service_part .service .item .img {
+		width: 60px;
+		height: 60px;
+		background: #eee;
+		border-radius: 50%;
+		margin: 50px auto;
+	}
+
+	#service_part .service .item .img img {
+		width: 30px;
+		margin: 0 auto;
+	}
+
+	#service_part .service .item:nth-child(2n+1) .right {
+		text-align: center;
+	}
+
+	#service_part .service .item .right {
+		width: 80%;
+		background: #f1f1f1;
+		padding: 25px 16px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#service_part .service .slick-center .right {
+		filter: drop-shadow(0px 0px 8px transparent);
+	}
+
+	#service_part .service .item:nth-child(2n+1) .right .shape {
+		width: 25px;
+		height: 25px;
+		top: 0%;
+		left: 50%;
+		transform: rotate(45deg) translateX(-50%);
+	}
+
+	#service_part .slick-slider .up {
+		font-size: 25px;
+		top: 20%;
+		left: 80%;
+		transform: translateX(-10%) rotate(90deg);
+	}
+
+	#service_part .slick-slider .down {
+		font-size: 25px;
+		bottom: 72%;
+		left: 20%;
+		transform: translateX(-80%) rotate(90deg);
+	}
+
+	#service_part .service .item .right .shape {
+		width: 25px;
+		height: 25px;
+		top: 0%;
+		left: 50%;
+		transform: rotate(45deg) translateX(-50%);
+	}
+
+	/* =======================================
              service_part css end here
  ========================================= */
 
- /* =======================================
+	/* =======================================
         service_bottom_part css start here
  ========================================= */
- #service_bottom .overlay {
-	padding: 50px 0;
-}
- #service_bottom .chain {
-	width: 0;
-}
-#service_bottom .slick-center {
-	transform: scale(1.2);
-}
-#service_bottom .img {
-	height: 80px;
-	width: 80px !important;
-	margin: 20px 10px 20px 10px;
-}
-#service_bottom .slick-slider .up {
-	font-size: 25px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	top: -30%;
-	left: 50%;
-}
-#service_bottom .slick-slider .down {
-	font-size: 20px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	bottom: 19%;
-	left: 52%;
-	z-index: 3;
-}
-#service_bottom .item {
-    width: auto ;
-	height: auto;
-	padding: 40px 20px;
-	margin-top: 50px;
-	margin-left: 0;
-	text-align: center;
-}
-#service_bottom_shape {
-	width: 0%;
-}
- /* =======================================
+	#service_bottom .overlay {
+		padding: 50px 0;
+	}
+
+	#service_bottom .chain {
+		width: 0;
+	}
+
+	#service_bottom .slick-center {
+		transform: scale(1.2);
+	}
+
+	#service_bottom .img {
+		height: 80px;
+		width: 80px !important;
+		margin: 15px 10px 20px 10px;
+	}
+
+	#service_bottom .slick-slider .up {
+		font-size: 25px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		top: -30%;
+		left: 52%;
+	}
+
+	#service_bottom .slick-slider .down {
+		font-size: 20px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		bottom: 19%;
+		left: 52%;
+		z-index: 3;
+	}
+
+	#service_bottom .item {
+		width: auto;
+		height: auto;
+		padding: 40px 20px;
+		margin-top: 50px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	#service_bottom_shape {
+		width: 0%;
+	}
+
+	/* =======================================
         service_bottom_part css end here
  ========================================= */
 
-  /* =======================================
+	/* =======================================
         price_part css start here
  ========================================= */
 
- #price_part {
-	padding: 20px 0;
-}
-#price_part .title {
-	margin-bottom: 10px;
-}
-#price_part .item {
-	margin: 20px auto;
-}
- /* =======================================
+	#price_part {
+		padding: 20px 0;
+	}
+
+	#price_part .title {
+		margin-bottom: 10px;
+	}
+
+	#price_part .item {
+		margin: 20px auto;
+	}
+
+	/* =======================================
         price_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         counter_up_part css start here
  ========================================= */
 
- #service_top_shape {
-	width: 0;
-}
-#counter_up .overlay {
-	background: rgba(0, 0, 0, .9);
-	padding: 30px 0;
-}
-#counter_up .overlay .rotate_shape {
-	transform: rotate(0deg);
-}
-#counter_up .overlay .item {
-	padding: 15px;
-}
-#counter_up .overlay .item span {
-	font-size: 25px;
-	transform: rotate(0deg);
-}
-#counter_up .overlay .item p {
-	font-size: 16px;
-	transform: rotate(0deg);
-}
-/* =======================================
+	#service_top_shape {
+		width: 0;
+	}
+
+	#counter_up .overlay {
+		background: rgba(0, 0, 0, .9);
+		padding: 30px 0;
+	}
+
+	#counter_up .overlay .rotate_shape {
+		transform: rotate(0deg);
+	}
+
+	#counter_up .overlay .item {
+		padding: 15px;
+	}
+
+	#counter_up .overlay .item span {
+		font-size: 25px;
+		transform: rotate(0deg);
+	}
+
+	#counter_up .overlay .item p {
+		font-size: 16px;
+		transform: rotate(0deg);
+	}
+
+	/* =======================================
         counter_up_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         footer_part css start here
  ========================================= */
- #footer_slider {
-	padding: 40px 0;
-}
-#footer_slider .footer_slider_shape {
-	transform: rotate(0deg);
-}
-#footer_slider .item img {
-	transform: rotate(0deg);
-}
- #footer_slider_bottom_shape {
-	width: 0%;
-}
-#footer_logo .logo {
-	padding-bottom: 20px;
-	transform: rotate(0deg);
-}
-#footer_logo .details {
-	padding-top: 30px;
-}
-#footer_logo .logo img {
-	transform: rotate(0deg);
-	margin-top: 20px;
-}
-#footer_logo .details .bor {
-	border-right: 0px solid #ddd;
-	margin-bottom: 20px;
-}
-#footer_logo i {
-	margin-bottom: 20px;
-}
-#footer_logo .icons i {
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 15px;
-	margin: 0 5px;
-	margin-bottom: 10px;
-}
-#footer_logo h2 {
-	margin-top: 30px;
-}
-#footer_logo .icons {
-	margin-top: 15px;
-}
-/* =======================================
+	#footer_slider {
+		padding: 40px 0;
+	}
+
+	#footer_slider .footer_slider_shape {
+		transform: rotate(0deg);
+	}
+
+	#footer_slider .item img {
+		transform: rotate(0deg);
+	}
+
+	#footer_slider_bottom_shape {
+		width: 0%;
+	}
+
+	#footer_logo .logo {
+		padding-bottom: 20px;
+		transform: rotate(0deg);
+	}
+
+	#footer_logo .details {
+		padding-top: 30px;
+	}
+
+	#footer_logo .logo img {
+		transform: rotate(0deg);
+		margin-top: 20px;
+	}
+
+	#footer_logo .details .bor {
+		border-right: 0px solid #ddd;
+		margin-bottom: 20px;
+	}
+
+	#footer_logo i {
+		margin-bottom: 20px;
+	}
+
+	#footer_logo .icons i {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		margin: 0 5px;
+		margin-bottom: 10px;
+	}
+
+	#footer_logo h2 {
+		margin-top: 30px;
+	}
+
+	#footer_logo .icons {
+		margin-top: 15px;
+	}
+
+	/* =======================================
         footer_part css end here
  ========================================= */
 
 }
-@media (min-width:576px) and (max-width:767.98px) {
 
-    /* =======================================
+@media (min-width:576px) and (max-width:767px) {
+
+	/* =======================================
              navabr css start here
  ========================================= */
- .navbar {
-	border-bottom: 0px solid rgba(254, 198, 0.2);
-}
-nav button span i{
-	color: #ddd;
-}
+	.navbar {
+		border-bottom: 0px solid rgba(254, 198, 0.2);
+	}
 
-    nav ul {
-        background: #222;
-        text-align: center;
-    }
+	nav button span i {
+		color: #ddd;
+	}
 
-    nav ul li {
-        margin-left: 0;
-    }
+	nav ul {
+		background: #222;
+		text-align: center;
+	}
 
-    .navbar-toggler:focus {
-        background: #fec600;
-        box-shadow: 0 0 0 .25rem transparent;
-    }
+	nav ul li {
+		margin-left: 0;
+	}
 
-    nav ul li:hover::after {
-        width: 0%;
-    }
+	.navbar-toggler:focus {
+		background: #fec600;
+		box-shadow: 0 0 0 .25rem transparent;
+	}
 
-    /* =======================================
+	nav ul li a:hover::after {
+		width: 0%;
+	}
+
+	nav ul li .active::after {
+		width: 0%;
+	}
+
+	/* =======================================
              navabr css end here
  ========================================= */
 
-    /* =======================================
+	/* =======================================
              banner css start here
  ========================================= */
 
-    #banner-part .banner .overlay {
-        padding-top: 130px;
-        padding-bottom: 80px;
-    }
+	#banner-part .banner .overlay {
+		padding-top: 130px;
+		padding-bottom: 80px;
+	}
 
-    #banner-part .banner .overlay h3 {
-        font-size: 30px;
-    }
+	#banner-part .banner .overlay h3 {
+		font-size: 30px;
+	}
 
-    #banner-part .banner .overlay h1 {
-        font-size: 45px;
-    }
+	#banner-part .banner .overlay h1 {
+		font-size: 45px;
+	}
 
-    #banner-part .banner .overlay p {
-        width: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
-    }
+	#banner-part .banner .overlay p {
+		width: auto;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
 
-    #banner-part .banner .overlay a {
-        padding: 15px;
-        font-size: 14px;
-    }
-    #banner-part .slick-dots {
-        position: absolute;
-        left: 50%;
-        bottom: 20px;
-        transform: translateX(-50%);
-    }
-    #banner-part .slick-dots li{
-        display: inline-block;
-        margin: 0 5px;
-    }
-    #banner-part .slick-dots li button {
-        font-size: 0;
-        width: 25px;
-        height: 25px;
-        background: transparent;
-        border: 1px solid #fec600;
-    }
-    #banner-part .slick-dots .slick-active button{
-        background: #fec600;
-    }
-    #banner-bottom-part {
-        width: 0;
-    }
-    /* =======================================
+	#banner-part .banner .overlay a {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	#banner-part .slick-dots {
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+		transform: translateX(-50%);
+	}
+
+	#banner-part .slick-dots li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	#banner-part .slick-dots li button {
+		font-size: 0;
+		width: 25px;
+		height: 25px;
+		background: transparent;
+		border: 1px solid #fec600;
+	}
+
+	#banner-part .slick-dots .slick-active button {
+		background: #fec600;
+	}
+
+	#banner-bottom-part {
+		width: 0;
+	}
+
+	/* =======================================
              banner css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              about css start here
  ========================================= */
 
-#about_part .title p {
-	width: auto;
-}
-#about_part .shape{
-    display: none;
-}
-#about_part i{
-    font-size: 0;
-}
+	#about_part .title p {
+		width: auto;
+	}
 
-#about_part .text_one h3 {
-	margin-bottom: 20px;
-}
-#about_part .text_two {
-	text-align: center;
-	margin-top: 30px;
-}
-#about_part .text_two h3 {
-	margin-bottom: 20px;
-}
-#about_part .text_three {
-	width: 320px;
-	height: 320px;
-	margin: 20px auto;
-}
-#about_part .text_three .img {
-	width: 280px;
-	height: 280px;
-}
-#about_part .text_four {
-	margin-top: 30px;
-    text-align: center;
-}
-#about_part .text_four h3 {
-	margin-bottom: 20px;
-}
-#about_part .text_five {
-	margin-top: 30px;
-}
-#about_part .text_five h3{
-	margin-bottom: 20px;
-}
-  /* =======================================
+	#about_part .shape {
+		display: none;
+	}
+
+	#about_part i {
+		font-size: 0;
+	}
+
+	#about_part .text_one h3 {
+		margin-bottom: 20px;
+	}
+
+	#about_part .text_two {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	#about_part .text_two h3 {
+		margin-bottom: 20px;
+	}
+
+	#about_part .text_three {
+		width: 320px;
+		height: 320px;
+		margin: 20px auto;
+	}
+
+	#about_part .text_three .img {
+		width: 280px;
+		height: 280px;
+	}
+
+	#about_part .text_four {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	#about_part .text_four h3 {
+		margin-bottom: 20px;
+	}
+
+	#about_part .text_five {
+		margin-top: 30px;
+	}
+
+	#about_part .text_five h3 {
+		margin-bottom: 20px;
+	}
+
+	/* =======================================
              about css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              portfolio css start here
  ========================================= */
 
- #portfolio_top {
-	height: 0;
-	margin-bottom: 0;
-}
-#portfolio_part .overlay {
-	padding: 60px 0;
-}
-#portfolio_part .overlay .title p {
-	width: auto;
-}
-#portfolio_part .overlay .item{
-	margin-right: 20px;
-}
-#portfolio_part .slick-slide img {
-	width: 100%;
-}
-#portfolio_part .overlay .item ul li {
-	margin-bottom: 20px;
-}
-#portfolio_bottom {
-	height: 0;
-	margin-top: 0;
-}
- /* =======================================
+	#portfolio_top {
+		height: 0;
+		margin-bottom: 0;
+	}
+
+	#portfolio_part .overlay {
+		padding: 60px 0;
+	}
+
+	#portfolio_part .overlay .title p {
+		width: auto;
+	}
+
+	#portfolio_part .overlay .item {
+		margin-right: 20px;
+	}
+
+	#portfolio_part .slick-slide img {
+		width: 100%;
+	}
+
+	#portfolio_part .overlay .item ul li {
+		margin-bottom: 20px;
+	}
+
+	#portfolio_bottom {
+		height: 0;
+		margin-top: 0;
+	}
+
+	/* =======================================
              portfolio css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              service_part css start here
  ========================================= */
 
- #service_part {
-	padding: 90px 0;
-}
-.title p {
-	width: auto;
-	margin: auto 10px;
-}
-#service_part .chain {
-	height: 0;
-}
-#service_part .service .item {
-	display: block;
-}
-#service_part .service .item:nth-child(2n+1) {
-	display: inline;
-}
-#service_part .service .item .left {
-	width: 100%;
-	display: inline;
-	text-align: center;
-}
-#service_part .service .slick-center .img {
-	transform: scale(1.2);
-	background: #fec600 !important;
-}
-#service_part .service .item .img {
-	width: 60px;
-    height: 60px;
-	background: #eee;
-	border-radius: 50%;
-	margin: 50px auto;
-}
-#service_part .service .item .img img {
-	width: 30px;
-	margin:0 auto;
-}
-#service_part .service .item:nth-child(2n+1) .right {
-	text-align: center;
-}
-#service_part .service .item .right {
-	width: 80%;
-	background: #f1f1f1;
-	padding: 25px 16px;
-    margin: 0 auto;
-}
-#service_part .service .slick-center .right {
-	filter: drop-shadow(0px 0px 8px transparent);
-}
-#service_part .service .item:nth-child(2n+1) .right .shape {
-	width: 25px;
-	height: 25px;
-	top: 0%;
-	left: 50%;
-	transform: rotate(45deg) translateX(-50%);
-}
-#service_part .slick-slider .up {
-	top: -18%;
-}
-#service_part .slick-slider .down {
-	bottom: -18%;
-}
-#service_part .service .item .right .shape {
-	width: 25px;
-	height: 25px;
-	top: 0%;
-	left: 50%;
-	transform: rotate(45deg) translateX(-50%);
-}
- /* =======================================
+	#service_part {
+		padding: 90px 0;
+	}
+
+	.title p {
+		width: auto;
+		margin: auto 10px;
+	}
+
+	#service_part .chain {
+		height: 0;
+	}
+
+	#service_part .service .item {
+		display: block;
+	}
+
+	#service_part .service .item:nth-child(2n+1) {
+		display: inline;
+	}
+
+	#service_part .service .item .left {
+		width: 100%;
+		display: inline;
+		text-align: center;
+	}
+
+	#service_part .service .slick-center .img {
+		transform: scale(1.2);
+		background: #fec600 !important;
+	}
+
+	#service_part .service .item .img {
+		width: 60px;
+		height: 60px;
+		background: #eee;
+		border-radius: 50%;
+		margin: 50px auto;
+	}
+
+	#service_part .service .item .img img {
+		width: 30px;
+		margin: 0 auto;
+	}
+
+	#service_part .service .item:nth-child(2n+1) .right {
+		text-align: center;
+	}
+
+	#service_part .service .item .right {
+		width: 80%;
+		background: #f1f1f1;
+		padding: 25px 16px;
+		margin: 0 auto;
+	}
+
+	#service_part .service .slick-center .right {
+		filter: drop-shadow(0px 0px 8px transparent);
+	}
+
+	#service_part .service .item:nth-child(2n+1) .right .shape {
+		width: 25px;
+		height: 25px;
+		top: 0%;
+		left: 50%;
+		transform: rotate(45deg) translateX(-50%);
+	}
+
+	#service_part .slick-slider .up {
+		top: -18%;
+	}
+
+	#service_part .slick-slider .down {
+		bottom: -18%;
+	}
+
+	#service_part .service .item .right .shape {
+		width: 25px;
+		height: 25px;
+		top: 0%;
+		left: 50%;
+		transform: rotate(45deg) translateX(-50%);
+	}
+
+	/* =======================================
              service_part css end here
  ========================================= */
 
- /* =======================================
+	/* =======================================
         service_bottom_part css start here
  ========================================= */
- #service_bottom .overlay {
-	padding: 90px 0;
-}
- #service_bottom .chain {
-	width: 0;
-}
-#service_bottom .slick-center {
-	transform: scale(1.2);
-}
-#service_bottom .img {
-	height: 100px;
-	width: 100px !important;
-	margin: 20px 37px 20px 37px;
-}
-#service_bottom .slick-slider .up {
-	top: -23%;
-	left: 52%;
-	transform: translateX(-50%);
-}
-#service_bottom .slick-slider .down {
-	bottom: 23%;
-	left: 52%;
-	z-index: 3;
-}
-#service_bottom .item {
-    width: auto ;
-	height: auto;
-	padding: 40px 20px;
-	margin-left: 0;
-	text-align: center;
-}
-#service_bottom_shape {
-	width: 0%;
-}
- /* =======================================
+	#service_bottom .overlay {
+		padding: 90px 0;
+	}
+
+	#service_bottom .chain {
+		width: 0;
+	}
+
+	#service_bottom .slick-center {
+		transform: scale(1.2);
+	}
+
+	#service_bottom .img {
+		height: 100px;
+		width: 100px !important;
+		margin: 20px 37px 20px 37px;
+	}
+
+	#service_bottom .slick-slider .up {
+		top: -23%;
+		left: 52%;
+		transform: translateX(-50%);
+	}
+
+	#service_bottom .slick-slider .down {
+		bottom: 23%;
+		left: 52%;
+		z-index: 3;
+	}
+
+	#service_bottom .item {
+		width: auto;
+		height: auto;
+		padding: 40px 20px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	#service_bottom_shape {
+		width: 0%;
+	}
+
+	/* =======================================
         service_bottom_part css end here
  ========================================= */
 
-  /* =======================================
+	/* =======================================
         price_part css start here
  ========================================= */
 
- #price_part {
-	padding: 20px 0;
-}
-#price_part .title {
-	margin-bottom: 10px;
-}
-#price_part .item {
-	margin: 20px auto;
-}
- /* =======================================
+	#price_part {
+		padding: 20px 0;
+	}
+
+	#price_part .title {
+		margin-bottom: 10px;
+	}
+
+	#price_part .item {
+		margin: 20px auto;
+	}
+
+	/* =======================================
         price_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         counter_up_part css start here
  ========================================= */
 
- #service_top_shape {
-	width: 0;
-}
-#counter_up .overlay {
-	background: rgba(0, 0, 0, .9);
-	padding: 30px 0;
-}
-#counter_up .overlay .rotate_shape {
-	transform: rotate(0deg);
-}
-#counter_up .overlay .item {
-	padding: 15px;
-}
-#counter_up .overlay .item span {
-	font-size: 25px;
-	transform: rotate(0deg);
-}
-#counter_up .overlay .item p {
-	font-size: 16px;
-	transform: rotate(0deg);
-}
-/* =======================================
+	#service_top_shape {
+		width: 0;
+	}
+
+	#counter_up .overlay {
+		background: rgba(0, 0, 0, .9);
+		padding: 30px 0;
+	}
+
+	#counter_up .overlay .rotate_shape {
+		transform: rotate(0deg);
+	}
+
+	#counter_up .overlay .item {
+		padding: 15px;
+	}
+
+	#counter_up .overlay .item span {
+		font-size: 25px;
+		transform: rotate(0deg);
+	}
+
+	#counter_up .overlay .item p {
+		font-size: 16px;
+		transform: rotate(0deg);
+	}
+
+	/* =======================================
         counter_up_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         footer_part css start here
  ========================================= */
- #footer_slider {
-	padding: 40px 0px;
-}
-#footer_slider .item {
-	padding: 30px 15px;
-}
-#footer_slider .footer_slider_shape {
-	transform: rotate(0deg);
-}
-#footer_slider .item img {
-	transform: rotate(0deg);
-	width: 100%;
-}
- #footer_slider_bottom_shape {
-	width: 0%;
-}
-#footer_logo .logo {
-	padding-bottom: 20px;
-	transform: rotate(0deg);
-}
-#footer_logo .details {
-	padding-top: 30px;
-}
-#footer_logo .logo img {
-	transform: rotate(0deg);
-	margin-top: 20px;
-}
-#footer_logo .details .bor {
-	border-right: 0px solid #ddd;
-	margin-bottom: 20px;
-}
-#footer_logo i {
-	margin-bottom: 20px;
-}
-#footer_logo .icons i {
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 15px;
-	margin: 0 5px;
-	margin-bottom: 10px;
-}
-#footer_logo h2 {
-	margin-top: 30px;
-}
-#footer_logo .icons {
-	margin-top: 15px;
-	padding-bottom: 20px;
-}
-/* =======================================
+	#footer_slider {
+		padding: 40px 0px;
+	}
+
+	#footer_slider .item {
+		padding: 30px 15px;
+	}
+
+	#footer_slider .footer_slider_shape {
+		transform: rotate(0deg);
+	}
+
+	#footer_slider .item img {
+		transform: rotate(0deg);
+		width: 100%;
+	}
+
+	#footer_slider_bottom_shape {
+		width: 0%;
+	}
+
+	#footer_logo .logo {
+		padding-bottom: 20px;
+		transform: rotate(0deg);
+	}
+
+	#footer_logo .details {
+		padding-top: 30px;
+	}
+
+	#footer_logo .logo img {
+		transform: rotate(0deg);
+		margin-top: 20px;
+	}
+
+	#footer_logo .details .bor {
+		border-right: 0px solid #ddd;
+		margin-bottom: 20px;
+	}
+
+	#footer_logo i {
+		margin-bottom: 20px;
+	}
+
+	#footer_logo .icons i {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		margin: 0 5px;
+		margin-bottom: 10px;
+	}
+
+	#footer_logo h2 {
+		margin-top: 30px;
+	}
+
+	#footer_logo .icons {
+		margin-top: 15px;
+		padding-bottom: 20px;
+	}
+
+	/* =======================================
         footer_part css end here
  ========================================= */
 
 }
-@media (min-width:768px) and (max-width:991.98px) {
 
-    /* =======================================
+@media (min-width:768px) and (max-width:991px) {
+
+	/* =======================================
              navabr css start here
  ========================================= */
-    nav ul {
-        text-align: center;
-    }
+	nav ul {
+		text-align: center;
+	}
 
-    nav ul li {
-        margin-left: 0;
-    }
+	nav ul li {
+		margin-left: 5px;
+	}
+
 	nav ul li a {
 		font-size: 14px;
 	}
 
-    nav ul li:hover::after {
-        width: 0%;
-    }
+	nav ul li a::after {
+		bottom: -26px;
+	}
 
-    /* =======================================
+	/* =======================================
              navabr css end here
  ========================================= */
 
-    /* =======================================
+	/* =======================================
              banner css start here
  ========================================= */
 
-    #banner-part .banner .overlay {
-        padding-top: 130px;
-        padding-bottom: 80px;
-    }
+	#banner-part .banner .overlay {
+		padding-top: 130px;
+		padding-bottom: 80px;
+	}
 
-    #banner-part .banner .overlay p {
-        width: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
-    }
+	#banner-part .banner .overlay p {
+		width: auto;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
 
-    #banner-part .banner .overlay a {
-        padding: 15px;
-        font-size: 14px;
-    }
-    /* =======================================
+	#banner-part .banner .overlay a {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	/* =======================================
              banner css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              about css start here
  ========================================= */
 
-#about_part .title p {
-	width: auto;
-}
+	#about_part .title p {
+		width: auto;
+	}
 
-#about_part .text_one {
-	padding: 20px;
-}
-#about_part .text_one .text_one_shape{
-	width: 20px;
-	height: 20px;
-	bottom: -10px;
-}
-#about_part .text_one i {
-	bottom: -25%;
-	left: 47%;
-}
-#about_part .text_one h3 {
-	font-size: 16px;
-}
-#about_part .text_one p {
-	font-size: 13px;
-}
-#about_part .text_two {
-	padding: 25px;
-	margin-top: 20px;
-}
-#about_part .text_two .text_two_shape{
-	width: 20px;
-	height: 20px;
-	right: -10px;
-}
-#about_part .text_two h3{
-	font-size: 16px;
-}
-#about_part .text_two p{
-	font-size: 13px;
-}
-#about_part .text_two i {
-	top: 43%;
-	right: -14%;
-}
-#about_part .text_three {
-	width: 220px;
-	height: 220px;
-	margin: 35px auto;
-}
-#about_part .text_three .img {
-	width: 200px;
-	height: 200px;
-}
-#about_part .text_four {
-	padding: 25px;
-	margin-top: 20px;
-}
-#about_part .text_four .text_four_shape{
-	width: 20px;
-	height: 20px;
-	left: -10px;
-}
-#about_part .text_four i {
-	top: 43%;
-	left: -13%;
-}
-#about_part .text_four h3{
-	font-size: 16px;
-}
-#about_part .text_four p{
-	font-size: 13px;
-}
-#about_part .text_five {
-	padding: 25px;
-}
-#about_part .text_five .text_five_shape {
-	width: 20px;
-	height: 20px;
-	top: -10px;
-}
-#about_part .text_five h3{
-	font-size: 16px;
-}
-#about_part .text_five p{
-	font-size: 13px;
-}
-  /* =======================================
+	#about_part .text_one {
+		padding: 20px;
+	}
+
+	#about_part .text_one .text_one_shape {
+		width: 20px;
+		height: 20px;
+		bottom: -10px;
+	}
+
+	#about_part .text_one i {
+		bottom: -25%;
+		left: 47%;
+	}
+
+	#about_part .text_one h3 {
+		font-size: 16px;
+	}
+
+	#about_part .text_one p {
+		font-size: 13px;
+	}
+
+	#about_part .text_two {
+		padding: 25px;
+		margin-top: 20px;
+	}
+
+	#about_part .text_two .text_two_shape {
+		width: 20px;
+		height: 20px;
+		right: -10px;
+	}
+
+	#about_part .text_two h3 {
+		font-size: 16px;
+	}
+
+	#about_part .text_two p {
+		font-size: 13px;
+	}
+
+	#about_part .text_two i {
+		top: 43%;
+		right: -14%;
+	}
+
+	#about_part .text_three {
+		width: 220px;
+		height: 220px;
+		margin: 35px auto;
+	}
+
+	#about_part .text_three .img {
+		width: 200px;
+		height: 200px;
+	}
+
+	#about_part .text_four {
+		padding: 25px;
+		margin-top: 20px;
+	}
+
+	#about_part .text_four .text_four_shape {
+		width: 20px;
+		height: 20px;
+		left: -10px;
+	}
+
+	#about_part .text_four i {
+		top: 43%;
+		left: -13%;
+	}
+
+	#about_part .text_four h3 {
+		font-size: 16px;
+	}
+
+	#about_part .text_four p {
+		font-size: 13px;
+	}
+
+	#about_part .text_five {
+		padding: 25px;
+	}
+
+	#about_part .text_five .text_five_shape {
+		width: 20px;
+		height: 20px;
+		top: -10px;
+	}
+
+	#about_part .text_five h3 {
+		font-size: 16px;
+	}
+
+	#about_part .text_five p {
+		font-size: 13px;
+	}
+
+	/* =======================================
              about css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              portfolio css start here
  ========================================= */
 
- #portfolio_top {
-	height: 0;
-	margin-bottom: 0;
-}
-#portfolio_part .overlay {
-	padding: 90px 0;
-}
-#portfolio_part .overlay .title p {
-	width: auto;
-}
-#portfolio_part .overlay .item{
-	margin-right: 20px;
-}
-#portfolio_part .slick-slide img {
-	width: 100%;
-}
-#portfolio_part .overlay .item ul li {
-	margin-bottom: 20px;
-}
-#portfolio_bottom {
-	height: 0;
-	margin-top: 0;
-}
- /* =======================================
+	#portfolio_top {
+		height: 0;
+		margin-bottom: 0;
+	}
+
+	#portfolio_part .overlay {
+		padding: 90px 0;
+	}
+
+	#portfolio_part .overlay .title p {
+		width: auto;
+	}
+
+	#portfolio_part .overlay .item {
+		margin-right: 20px;
+	}
+
+	#portfolio_part .slick-slide img {
+		width: 100%;
+	}
+
+	#portfolio_part .overlay .item ul li {
+		margin-bottom: 20px;
+	}
+
+	#portfolio_bottom {
+		height: 0;
+		margin-top: 0;
+	}
+
+	/* =======================================
              portfolio css end here
  ========================================= */
 
 
-  /* =======================================
+	/* =======================================
              service_part css start here
  ========================================= */
 
- #service_part {
-	padding: 90px 0;
-}
-.title p {
-	width: auto;
-	margin: auto 20px;
-}
-#service_part .chain {
-	height: 72%;
-	top: 50px;
-}
-#service_part .service .item .img {
-	width: 10%;
-}
-#service_part .service .item .img img {
-	width: 40px;
-}
-#service_part .service .item:nth-child(2n+1) .right .shape {
-	width: 30px;
-	height: 30px;
-	left: 94%;
-}
-#service_part .service .slick-center .right {
-	filter: drop-shadow(0px 0px 5px #000);
-}
-#service_part .service .slick-center .img {
-	transform: scale(1.3);
-	background: #fec600 !important;
-}
-#service_part .slick-slider .down {
-	bottom: -5%;
-}
-#service_part .slick-slider .up {
-	top: -6%;
-}
+	#service_part {
+		padding: 90px 0;
+	}
 
- /* =======================================
+	.title p {
+		width: auto;
+		margin: auto 20px;
+	}
+
+	#service_part .chain {
+		height: 72%;
+		top: 50px;
+	}
+
+	#service_part .service .item .img {
+		width: 10%;
+	}
+
+	#service_part .service .item .img img {
+		width: 40px;
+	}
+
+	#service_part .service .item:nth-child(2n+1) .right .shape {
+		width: 30px;
+		height: 30px;
+		left: 94%;
+	}
+
+	#service_part .service .slick-center .right {
+		filter: drop-shadow(0px 0px 5px #000);
+	}
+
+	#service_part .service .slick-center .img {
+		transform: scale(1.3);
+		background: #fec600 !important;
+	}
+
+	#service_part .slick-slider .down {
+		bottom: -5%;
+	}
+
+	#service_part .slick-slider .up {
+		top: -6%;
+	}
+
+	/* =======================================
              service_part css end here
  ========================================= */
 
- /* =======================================
+	/* =======================================
         service_bottom_part css start here
  ========================================= */
- #service_bottom .item{
-	 padding: 10px 0px;
- }
- #service_bottom .item .shape {
-	width: 0px;
-}
- #service_bottom .item {
-	width: auto;
-	height: auto;
-	padding: 40px 20px;
-}
-#service_bottom .slick-center {
-	transform: scale(1.2);
-}
-#service_bottom .slick-slider .up {
-	left: 45%;
-}
-#service_bottom .slick-slider .down {
-	left: 45%;
-}
- /* =======================================
+	#service_bottom .item {
+		padding: 10px 0px;
+	}
+
+	#service_bottom .item .shape {
+		width: 0px;
+	}
+
+	#service_bottom .item {
+		width: auto;
+		height: auto;
+		padding: 40px 20px;
+	}
+
+	#service_bottom .slick-center {
+		transform: scale(1.2);
+	}
+
+	#service_bottom .slick-slider .up {
+		left: 45%;
+	}
+
+	#service_bottom .slick-slider .down {
+		left: 45%;
+	}
+
+	/* =======================================
         service_bottom_part css end here
  ========================================= */
 
-  /* =======================================
+	/* =======================================
         price_part css start here
  ========================================= */
 
-#price_part .title {
-	margin-bottom: 30px;
-}
-#price_part .item {
-	margin: 20px auto;
-}
- /* =======================================
+	#price_part .title {
+		margin-bottom: 30px;
+	}
+
+	#price_part .item {
+		margin: 20px auto;
+	}
+
+	/* =======================================
         price_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         counter_up_part css start here
  ========================================= */
 
-#counter_up .overlay .item {
-	padding: 15px;
-}
-#counter_up .overlay .item span {
-	font-size: 25px;
-}
-#counter_up .overlay .item p {
-	font-size: 16px;
-}
-/* =======================================
+	#counter_up .overlay .item {
+		padding: 15px;
+	}
+
+	#counter_up .overlay .item span {
+		font-size: 25px;
+	}
+
+	#counter_up .overlay .item p {
+		font-size: 16px;
+	}
+
+	/* =======================================
         counter_up_part css end here
  ========================================= */
 
- /* =======================================
+	/* =======================================
         team_part css start here
  ========================================= */
 
- #team_part .item{
-	 margin-bottom: 50px;
- }
+	#team_part .item {
+		margin-bottom: 50px;
+	}
 
- /* =======================================
+	/* =======================================
         team_part css end here
  ========================================= */
 
-/* =======================================
+	/* =======================================
         footer_part css start here
  ========================================= */
- #footer_slider {
-	padding: 60px 0;
-}
-#footer_slider .item {
-	padding: 30px 10px;
-}
+	#footer_slider {
+		padding: 60px 0;
+	}
 
-#footer_slider .item img {
-	width: 100%;
-}
-#footer_logo .logo {
-	padding-bottom: 20px;
-}
-#footer_logo .details {
-	padding-top: 60px;
-}
-#footer_logo i {
-	width: 30px;
-	height: 30px;
-	font-size: 15px;
-}
-#footer_logo p {
-	font-size: 13px;
-}
-#footer_logo .logo img {
-	margin-top: 20px;
-}
+	#footer_slider .item {
+		padding: 30px 10px;
+	}
 
-/* =======================================
+	#footer_slider .item img {
+		width: 100%;
+	}
+
+	#footer_logo .logo {
+		padding-bottom: 20px;
+	}
+
+	#footer_logo .details {
+		padding-top: 60px;
+	}
+
+	#footer_logo i {
+		width: 30px;
+		height: 30px;
+		font-size: 15px;
+	}
+
+	#footer_logo p {
+		font-size: 13px;
+	}
+
+	#footer_logo .logo img {
+		margin-top: 20px;
+	}
+
+	/* =======================================
         footer_part css end here
  ========================================= */
 
